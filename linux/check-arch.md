@@ -1,0 +1,3 @@
+```bash
+uname -a
+```
