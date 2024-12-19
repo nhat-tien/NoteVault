@@ -4,18 +4,18 @@ timestamp=$(date +'%T-%d-%m-%Y')
 
 cd "$MYNOTES/noteVault"
 
-echo "job started: $(timestamp)" > log.txt
+echo "job started: $timestamp" > log.txt
 
 if [[ `git status --porcelain` ]]; then
-  echo "Running Git commands: $(timestamp)" >> log.txt
+  echo "Running Git commands: $timestamp" >> log.txt
   git pull origin main
   git add .
-  git commit -m "auto-backup: $date"
+  git commit -m "auto-backup: $timestamp"
   git push origin main
-  echo "Finished running Git commands: $(timestamp)" >> log.txt
+  echo "Finished running Git commands: $timestamp" >> log.txt
 fi
 
-echo "job done: $(timestamp)" >> log.txt
+echo "job done: $timestamp" >> log.txt
 
 
 
