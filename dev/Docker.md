@@ -15,13 +15,11 @@ sudo systemctl start docker
 ```
 
 ## Stop
-
 ```sh
 sudo systemctl stop docker.socket
 ```
 
 ## Status
-
 ```sh
 sudo service docker status
 ```
@@ -33,7 +31,12 @@ sudo systemctl status docker
 ```
 
 ## Remove all image
-
 ```bash
 docker rmi $(docker images -a -q) --force
 ```
+
+## Remove all volume
+```bash
+docker volume rm $(docker volume list -q) 
+```
+

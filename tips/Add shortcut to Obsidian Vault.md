@@ -5,6 +5,9 @@ tags:
   - obsidian
 ---
 
+>[!info] Info
+> On Windows
+
 ## Các bước thực hiện
 1. Mở file text
 2. Nhập nội dung bên dưới
