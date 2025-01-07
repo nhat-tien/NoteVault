@@ -40,3 +40,18 @@ docker rmi $(docker images -a -q) --force
 docker volume rm $(docker volume list -q) 
 ```
 
+## Remove image not used
+```bash
+docker image prune
+```
+
+## Remove volume not used
+```bash
+docker volume prune
+```
+
+## Remove build cache 
+```bash
+docker builder prune
+```
+
