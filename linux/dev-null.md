@@ -28,3 +28,6 @@ Another way:
 cat --INCORRECT_OPTION > /dev/null 2>&1
 ```
 
+## See More
+[[redirect-the-output]]
+
