@@ -9,7 +9,7 @@ tags:
 - link: [tài liệu của MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
 - Nó sẽ kiểm tra các toán hạng từ trái sang phải
 - Toán tử này sẽ trả về giá trị *falsy* đầu tiên, hoặc giá trị cuối cùng nếu tất cả đều *truthy* .
-- Xem thêm [[Truthy & Falsy]]
+- Xem thêm [[Truthy&Falsy]]
 
 ```js
 result = '' && 'foo';  // result is assigned "" (empty string)
@@ -24,7 +24,7 @@ result = 'foo' && 4;   // result is assigned 4
 - Nó sẽ kiểm tra các toán hạng từ trái sang phải
 - Chỉ trả về giá trị **Truthy** đầu tiên gặp được, hoặc giá trị cuối cùng nếu tất cả đều Falsy.
 - Ngược với AND operator.
-- Đọc thêm [[Truthy & Falsy]]
+- Đọc thêm [[Truthy&Falsy]]
 
 ```js
 o1 = true  || true       // t || t returns true
