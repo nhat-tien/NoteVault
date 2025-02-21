@@ -61,6 +61,11 @@ docker rm <container_id>
 ```
 
 ## Misc
+### System inspect
+```bash
+docker system df
+```
+
 ### Remove all image
 ```bash
 docker rmi $(docker images -a -q) --force
