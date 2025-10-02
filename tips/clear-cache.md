@@ -12,3 +12,8 @@ npm cache clean --force
 ```bash
 flutter clean
 ```
+
+## Google Chrome 
+
+Access `chrome://settings/clearBrowserData`
+
