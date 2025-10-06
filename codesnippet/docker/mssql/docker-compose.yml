@@ -1,0 +1,17 @@
+volumes:
+  mssql_data:
+    driver: local
+
+services:
+  mssql-server:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    container_name: sql_server
+    restart: always
+    ports:
+      - "1433:1433"
+    environment:
+      - MSSQL_SA_PASSWORD=Admin@123456
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Express
+    volumes:
+      - mssql_data:/var/opt/mssql/
