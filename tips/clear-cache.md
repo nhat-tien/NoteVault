@@ -1,4 +1,4 @@
-## NPM 
+## NPM
 
 ```bash
 npm cache clean --force
@@ -13,7 +13,9 @@ npm cache clean --force
 flutter clean
 ```
 
-## Google Chrome 
+## Google Chrome
 
 Access `chrome://settings/clearBrowserData`
+
+`chrome://settings/content/all`
 
