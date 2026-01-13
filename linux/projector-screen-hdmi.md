@@ -18,3 +18,8 @@ Example:
 xrandr --output HDMI-2 --auto
 ```
 
+
+## Only the second screen
+```bash
+xrandr --output HDMI-2 --auto --output eDP-1 --off
+```
