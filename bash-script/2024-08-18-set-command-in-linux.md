@@ -9,4 +9,5 @@
 set -o vi
 ```
 
-[article](https://www.scaler.com/topics/set-command-in-linux/) 
+[article](https://www.scaler.com/topics/set-command-in-linux/)
+
